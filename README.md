@@ -18,3 +18,19 @@ Parameters:
        Gr: Gain (dBi) of receiving antenna in the azimuthal direction of the path towards the other antenna, and at the elevation angle about the local horizontal of the other antenna in the case of a line-of-sight path, otherwise of the antenna's radio horizon, for median effective Earth radius.
        Gt: Gain (dBi) of transmitting antenna in the azimuthal direction of the path towards the other antenna, and at the elevation angle about the local horizontal of the other antenna in the case of a line-of-sight path, otherwise of the antenna's radio horizon, for median effective Earth radius.
        h: (meters) Elevation points, evenly spaced.
+
+Requires data files:
+DN_Median.csv
+DN_SubSlope.csv
+DN_SupSlope.csv
+Esarain_Beta_v5.csv
+Esarain_Mt_v5.csv
+Esarain_Pr6_v5.csv
+FoEs0.1.csv
+FoEs01.csv
+FoEs10.csv
+FoEs50.csv
+TropoClim.csv
+dndz_01.csv
+h0.csv
+surfwv_50_fixed.csv
