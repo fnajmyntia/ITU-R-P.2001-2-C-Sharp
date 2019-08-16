@@ -34,3 +34,6 @@ TropoClim.csv
 dndz_01.csv
 h0.csv
 surfwv_50_fixed.csv
+
+For ITU sotware and validation examples see https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/iono-tropo-spheric.aspx
+For publication: Recommendation P.2001-2 (07/2015) see https://www.itu.int/rec/R-REC-P.2001-2-201507-I/en
