@@ -36,7 +36,7 @@ h0.csv
 surfwv_50_fixed.csv
 
 Intermediate Parameters for Debugging:
-The function public double p2001(double freq, double Tpol, double txlat, double txlon, double rxlat, double rxlon, double Hrg, double Htg, double Tpc, double Gr, double Gt, double[] h) contains commented out debugging code to save intermediate calculations.  This can be enabled by uncommenting the code.
+The function public double p2001(double freq, double Tpol, double txlat, double txlon, double rxlat, double rxlon, double Hrg, double Htg, double Tpc, double Gr, double Gt, double[] h) contains commented out debugging code to save intermediate calculations.  This can be enabled by uncommenting the code and changing "const bool SAVEDBUGDATA = false;" to "const bool SAVEDBUGDATA = true;".
 
 For ITU sotware and validation examples see https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/iono-tropo-spheric.aspx
 For publication: Recommendation P.2001-2 (07/2015) see https://www.itu.int/rec/R-REC-P.2001-2-201507-I/en
