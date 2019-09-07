@@ -1091,7 +1091,7 @@ namespace AMS_IMT
             if (hm > 10.0)
                 u3 = Math.Exp(-4.6 * Math.Pow(10.0, -5.0) * (hm - 10.0) * (43.0 + (6.0 * dar))); //Equation D.7.2a
             else
-                u3 = 10.0; //Equation D.7.2b
+                u3 = 1.0; //Equation D.7.2b
             alpha = -0.6 - 3.5 * Math.Pow(10.0, -9.0) * Math.Pow(dn, 3.1) * tao; //Equation D.7.3
 
             if (alpha < -3.4)
